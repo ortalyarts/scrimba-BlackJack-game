@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>
+      BlackJack Game by Ortaly
+    </title>
+  </head>
+
+  <body>
+    <main>
+      <div class="game-holder">
+        <h1>BlackJack<br>Card game</h1>
+        <div class="stock">
+          <img src="cards/BLUE_BACK.svg" alt="Stock of cards" />
+        </div>
+        <button type="button" class="btn" id="btn-pick">Pick a card</button> 
+        <div id="result-holder" class="hide">
+          <h2 id="game-result"></h2>
+          <button type="button" class="btn" id="btn-reset">Start again</button>
+        </div>
+         
+        <!-- <h2>You picked: <span id="current-card"> -</span></h2> -->
+        <!-- <h2>Picked cards: </h2> -->
+        <ul id="picked-cards-list">
+
+        </ul>
+        <h2>Your score: <span id="player-score"> -</span></h2>
+      </div>
+    </main>
+    
+    
+    <script src="script.js"></script>
+  </body>
+</html>
