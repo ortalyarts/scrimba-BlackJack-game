@@ -27,7 +27,7 @@ This is a solution to the Scrimba Blackjack game https://scrimba.com/playlist/p3
 ### Links
 
 - Solution URL: https://github.com/ortalyarts/scrimba-BlackJack-game
-- Live Site URL:(https://profile-card-component-three-pi.vercel.app/)
+- Live Site URL: https://scrimba-black-jack-game-eta.vercel.app/
 
 ## My process
 
